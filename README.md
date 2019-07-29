@@ -4,6 +4,7 @@ Este ejemplo de crud utiliza MySQL conectada a una api en Express.JS funcionando
 
 SCRIPTS MySQL
 
+```bash
 CREATE DATABASE userscrud;
 
 USE userscrud;
@@ -14,10 +15,13 @@ CREATE TABLE users (
     email VARCHAR(200),
     password VARCHAR(25)
 );
+```
 
 clonar repositorio y usar:
 
+```bash
 yarn install
 yarn start
+```
 
 Crear api(Pronto url del proyecto) y reemplazar url's en los metodos correspondientes dentro de src/components/Users.js
